@@ -1,3 +1,5 @@
+
+
 # Predicting post-merger operating performance with interpretable ML
 
 [![Thesis](https://img.shields.io/badge/MSc%20thesis-University%20of%20Twente%20(2026)-1f6feb)](https://purl.utwente.nl/essays/110659)
@@ -26,6 +28,8 @@ The honest takeaway: pre-deal data carries a weak but real rank-ordering signal 
 ## The thesis in 46 seconds
 
 A short explainer video of the research question, the model, and the screening app built on top of it: [`assets/thesis-video.mp4`](assets/thesis-video.mp4)
+
+https://github.com/user-attachments/assets/55aa97db-f9f2-4887-9a35-fb1fad62c0ec
 
 <!-- To embed an inline video player: edit this README on github.com and drag the
      compressed copy (under GitHub's 10 MB upload cap) into the editor just below
