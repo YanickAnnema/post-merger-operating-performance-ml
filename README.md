@@ -3,6 +3,7 @@
 # Predicting post-merger operating performance with interpretable ML
 
 [![Thesis](https://img.shields.io/badge/MSc%20thesis-University%20of%20Twente%20(2026)-1f6feb)](https://purl.utwente.nl/essays/110659)
+[![Live deck](https://img.shields.io/badge/live%20deck-view%20presentation-00AEEF)](https://yanickannema.github.io/post-merger-operating-performance-ml/presentation/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](requirements.txt)
 [![Model](https://img.shields.io/badge/model-XGBoost%20%2B%20SHAP-orange)](src/ml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
