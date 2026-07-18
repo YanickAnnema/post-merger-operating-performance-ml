@@ -32,10 +32,6 @@ A short explainer video of the research question, the model, and the screening a
 
 https://github.com/user-attachments/assets/55aa97db-f9f2-4887-9a35-fb1fad62c0ec
 
-<!-- To embed an inline video player: edit this README on github.com and drag the
-     compressed copy (under GitHub's 10 MB upload cap) into the editor just below
-     this comment; GitHub will insert a user-attachments URL that renders as a player. -->
-
 ## Defense deck
 
 **[▶ Open the interactive deck](https://yanickannema.github.io/post-merger-operating-performance-ml/presentation/)** — six key slides previewed below: pipeline, sample construction, chronological validation, the central result, and the SHAP story.
