@@ -1,0 +1,58 @@
+# Licensed and private data. Never redistribute.
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.rds
+*.RData
+LSEG*
+Lseg*
+lseg*
+Refinitiv*
+refinitiv*
+Worldscope*
+worldscope*
+ORBIS*
+Orbis*
+orbis*
+*deals*
+*financials*
+*full_deal_level*
+*ml_ready*
+!src/synthetic/make_synthetic_ml_ready.py
+*training_splits*
+*xgboost_model*
+*shap_values*
+*cache*
+
+# Local credentials and API/session config.
+.env
+.env.*
+config/*
+!config/.gitkeep
+*data.config.json
+*refinitiv*.json
+*lseg*.json
+*workspace*.json
+
+# Keep folders, ignore generated contents.
+data/*
+!data/.gitkeep
+!data/README.md
+outputs/*
+!outputs/.gitkeep
+
+# Python and notebooks.
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor.
+.DS_Store
+Thumbs.db
+
