@@ -42,25 +42,9 @@ The deck source lives in [`presentation/`](presentation/) (arrow keys to navigat
 
 ## Code map
 
-How the pipeline above maps to the source folders in this repository:
+How the pipeline maps to the source folders in this repository:
 
-```mermaid
-flowchart LR
-    subgraph DAQ["Data acquisition — src/daq/"]
-        A["LSEG deal screener<br/>M&amp;A deals 1995–2022"] --> B["Worldscope financials<br/>acquiror + target, t−1 … t+3"]
-        B --> C["Healy (1992) target:<br/>industry-adjusted ΔCFROA"]
-        C --> D["Pre-deal synergy proxies<br/>cost / revenue / operational / financial"]
-        D --> E["Macro merge<br/>rates, spreads, market conditions"]
-    end
-    subgraph ML["Modeling — src/ml/"]
-        E --> F["Chronological splits<br/>train ≤2015 · val 2016–18 · test 2019–22"]
-        F --> G["XGBoost regression<br/>tuned on inner validation"]
-    end
-    subgraph XAI["Explanation — src/shap/"]
-        G --> H["SHAP values"]
-        H --> I["Channel-level attribution<br/>operational · financial · cost · macro · revenue"]
-    end
-```
+![Code map: src/daq → src/ml → src/shap](assets/readme/code-map.png)
 
 ## What is included
 
