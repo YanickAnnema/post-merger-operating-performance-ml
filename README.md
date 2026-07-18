@@ -27,17 +27,17 @@ The honest takeaway: pre-deal data carries a weak but real rank-ordering signal 
 
 A short explainer video of the research question, the model, and the screening app built on top of it: [`assets/thesis-video.mp4`](assets/thesis-video.mp4)
 
-<!-- To embed an inline video player: edit this README on github.com, drag
-     assets/thesis-video.mp4 into the editor just below this comment, and GitHub
-     will insert a user-attachments URL that renders as a player. -->
+<!-- To embed an inline video player: edit this README on github.com and drag the
+     compressed copy (under GitHub's 10 MB upload cap) into the editor just below
+     this comment; GitHub will insert a user-attachments URL that renders as a player. -->
 
 ## Defense deck
 
-Six key slides from the interactive defense presentation — pipeline, sample construction, chronological validation, the central result, and the SHAP story:
+**[▶ Open the interactive deck](https://yanickannema.github.io/post-merger-operating-performance-ml/presentation/)** — six key slides previewed below: pipeline, sample construction, chronological validation, the central result, and the SHAP story.
 
-[![Defense deck preview](assets/readme/deck-preview.gif)](presentation/)
+[![Defense deck preview](assets/readme/deck-preview.gif)](https://yanickannema.github.io/post-merger-operating-performance-ml/presentation/)
 
-The full deck lives in [`presentation/`](presentation/) — open `presentation/index.html` in any browser (arrow keys to navigate, `a` for the appendix). All figures show aggregate results only; row-level data and SHAP matrices are not redistributed.
+The deck source lives in [`presentation/`](presentation/) (arrow keys to navigate, `a` for the appendix). All figures show aggregate results only; row-level data and SHAP matrices are not redistributed.
 
 ## Code map
 
