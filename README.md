@@ -4,6 +4,7 @@
 
 [![Thesis](https://img.shields.io/badge/MSc%20thesis-University%20of%20Twente%20(2026)-1f6feb)](https://purl.utwente.nl/essays/110659)
 [![Live deck](https://img.shields.io/badge/live%20deck-view%20presentation-00AEEF)](https://yanickannema.github.io/post-merger-operating-performance-ml/presentation/)
+[![Screener](https://img.shields.io/badge/live%20app-synergy%20screener-003758)](https://synergy-screener.yftannema.chatgpt.site/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](requirements.txt)
 [![Model](https://img.shields.io/badge/model-XGBoost%20%2B%20SHAP-orange)](src/ml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -28,7 +29,7 @@ The honest takeaway: pre-deal data carries a weak but real rank-ordering signal 
 
 ## The thesis in 46 seconds
 
-A short explainer video of the research question, the model, and the screening app built on top of it: [`assets/thesis-video.mp4`](assets/thesis-video.mp4)
+A short explainer video of the research question, the model, and the [synergy screener](https://synergy-screener.yftannema.chatgpt.site/) built on top of it: [`assets/thesis-video.mp4`](assets/thesis-video.mp4)
 
 https://github.com/user-attachments/assets/55aa97db-f9f2-4887-9a35-fb1fad62c0ec
 
